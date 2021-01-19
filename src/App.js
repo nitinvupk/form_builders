@@ -7,8 +7,7 @@ import './App.css';
 class  App extends React.Component {
   constructor(props){
   super(props);
-  this.state={
-   }
+  this.state={}
   }
 
   componentDidMount() {
@@ -24,6 +23,7 @@ class  App extends React.Component {
   handleInputChange = (e) => {
     this.props.updateInputField(e.target.value)
   }
+
   onCovidValueChange = (e) => {
     this.props.updateCovidField(e.target.value)
   }
@@ -82,6 +82,6 @@ function mapStateToProps (state) {
      };
      
     }
-    
+
 export default connect(mapStateToProps,mapDispatchToProps)(App);
 
