@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  text-align: left;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px #dedbdb;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .App-logo {
@@ -36,3 +41,22 @@
     transform: rotate(360deg);
   }
 }
+.submit_button {
+  background-color: green;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.inputfield {
+  padding: 5px;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.submit {
+  text-align: right;
+}
+
